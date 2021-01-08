@@ -9,7 +9,7 @@
     },
     "Casa Access": {
       "Action": "",
-      "Description": "",
+      "Description": "Casa access",
       "roles": [
         "Agent",
         "Business",
