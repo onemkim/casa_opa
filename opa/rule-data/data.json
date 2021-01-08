@@ -1,0 +1,51 @@
+{
+  "policies": {
+    "CCT Admin": {
+      "Action": "",
+      "Description": "",
+      "roles": [
+        "CCT"
+      ]
+    },
+    "Casa Access": {
+      "Action": "",
+      "Description": "",
+      "roles": [
+        "Agent",
+        "Business",
+        "Business Primes",
+        "Casa Devs",
+        "CCT",
+        "MnH Agent",
+        "QA",
+        "SHS Agent",
+        "UAT"
+      ]
+    },
+    "Customer Data Privacy Access": {
+      "Action": "",
+      "Description": "users in this role have access to customer data (eg. DOB, driver license)",
+      "roles": [
+        "Agent",
+        "Casa Pilot Group",
+        "MnH Agent",
+        "QA",
+        "SHS Agent"
+      ]
+    },
+    "SHS Admin": {
+      "Action": "",
+      "Description": "SHS policy which can create, read and update SHS task",
+      "roles": [
+        "SHS Agent"
+      ]
+    },
+    "SHS Update": {
+      "Action": "",
+      "Description": "SHS policy for read and update SHS tasks",
+      "roles": [
+        "SHS Agent"
+      ]
+    }
+  }
+}
