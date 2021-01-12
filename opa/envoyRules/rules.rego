@@ -17,7 +17,7 @@
 # `claims` and `bearer_token` because by default the playground evaluates all of
 # the rules in the current package. You can evaluate specific rules by selecting
 # the rule name (e.g., `claims`) and clicking Evaluate Selection.
-package envoy.http.jwt
+package envoyRules
 
 default allow = true
 
