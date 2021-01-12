@@ -1,23 +1,5 @@
-# JWT Decoding
-# ------------
-#
-# The example allows a user "alice" to create new dogs in a 'pet store' API.
-#
-# This example show show to:
-#
-#	* Extract and decode a JSON Web Token (JWT).
-#	* Verify signatures on JWT using built-in functions in Rego.
-#	* Define helper rules that provide useful abstractions.
-#
-# For more information see:
-#
-#	* Rego JWT decoding and verification functions: https://www.openpolicyagent.org/docs/latest/policy-reference/#token-verification
-#
-# Hint: When you click Evaluate, you see values for `allow`, `is_post`, `is_dogs`,
-# `claims` and `bearer_token` because by default the playground evaluates all of
-# the rules in the current package. You can evaluate specific rules by selecting
-# the rule name (e.g., `claims`) and clicking Evaluate Selection.
 package envoyRules
+import data.data
 
 default allow = true
 
