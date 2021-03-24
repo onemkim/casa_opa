@@ -2,7 +2,7 @@
   "policies": {
     "CCT Admin": {
       "Action": "",
-      "Description": "",
+      "Description": "CCT Administration",
       "roles": [
         "CCT"
       ]
